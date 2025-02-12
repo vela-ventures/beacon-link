@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    runs-on: [self-hosted, web-apps, linux, x64]
+    runs-on: [self-hosted]
     steps:
       - name: Test
         run: echo "Hello, world!"
