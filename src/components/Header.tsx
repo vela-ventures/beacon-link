@@ -20,6 +20,7 @@ import { Link } from "react-router-dom"
 import { Logo } from "./Logo"
 import { MainFontFF } from "./RootLayout/fonts"
 import SearchBar from "@/app/SearchBar"
+import { LogoDark } from "./LogoDark"
 
 const Header = () => {
   const { mode = "dark", setMode } = useColorScheme()
@@ -59,7 +60,11 @@ const Header = () => {
           >
             <Stack direction="row" gap={2} alignItems="baseline">
               <Button component={Link} to="/" sx={{ marginLeft: -1 }}>
-                <Logo color="var(--mui-palette-text-primary)" />
+                {mode === "dark" ? (
+                  <Logo color="var(--mui-palette-text-primary)" />
+                ) : (
+                  <LogoDark color="var(--mui-palette-text-primary)" />
+                )}
               </Button>
               <MuiLink
                 component={Link}

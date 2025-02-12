@@ -147,7 +147,7 @@ export function createOptionsForStat(
     title: {
       align: "left",
       style: {
-        fontFamily: exportServer ? "Helvetica" : TitleFontFF,
+        fontFamily: exportServer ? "Sora" : TitleFontFF,
         fontSize: fontSizes.title,
         color: fontColor,
       },
@@ -216,13 +216,13 @@ export function createOptionsForStat(
       {
         data,
         lineWidth: 1,
-        lineColor: "#29CC00",
+        lineColor: "#1D2BC2",
         color: {
           linearGradient: { x1: 0, x2: 0, y1: 0, y2: 1 },
           stops: [
-            [0, "rgba(41, 204, 0, 1)"],
-            [0.5, "rgba(41, 204, 0, 0.33)"],
-            [1, "rgba(41, 204, 0, 0)"],
+            [0, "rgba(29, 43, 194, 1)"],
+            [0.5, "rgba(29, 43, 194, 0.33)"],
+            [1, "rgba(29, 43, 194, 0)"],
           ],
         },
         type: "area",

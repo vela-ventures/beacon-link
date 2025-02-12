@@ -28,7 +28,7 @@ export const theme = extendTheme({
         },
         // @ts-ignore
         accent: {
-          main: "rgba(41, 204, 0, 1)",
+          main: "rgba(29, 43, 194, 1)",
         },
         background: {
           paper: "#252424",
@@ -40,18 +40,18 @@ export const theme = extendTheme({
     light: {
       palette: {
         primary: {
-          main: "rgb(50, 50, 50)",
+          main: "rgba(0, 0, 0, 1)",
         },
         secondary: {
-          main: "rgb(40,40,40)",
+          main: "rgba(29, 43, 194, 0.5)",
         },
         // @ts-ignore
         accent: {
-          main: "rgba(41, 204, 0, 1)",
+          main: "rgba(29, 43, 194, 1)",
         },
         background: {
-          default: "rgb(255,255,255)",
-          paper: "#f9f9f9",
+          default: "rgba(255, 255, 255, 1)",
+          paper: "#F3F4F5",
         },
         text: {
           secondary: "#9EA2AA",

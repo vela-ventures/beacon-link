@@ -7,6 +7,8 @@ import "@fontsource/dm-sans/300.css"
 import "@fontsource/dm-sans/400.css"
 import "@fontsource/dm-sans/500.css"
 import "@fontsource/dm-sans/700.css"
+import "@fontsource-variable/sora"
+import "@fontsource/open-sauce-sans/500.css"
 
 import * as React from "react"
 import * as ReactDOM from "react-dom/client"

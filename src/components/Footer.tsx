@@ -3,6 +3,7 @@ import React from "react"
 
 import { AutonomousFinanceLogo } from "./AutonomousFinanceLogo"
 import { GoldSkyLogo } from "./GoldSkyLogo"
+import { VelaVenturesLogo } from "./VelaVenturesLogo"
 
 export function Footer() {
   return (
@@ -18,7 +19,7 @@ export function Footer() {
         sx={{
           paddingX: 2,
           paddingY: 1,
-          background: "#242629",
+          background: "#1D2BC2",
           borderTopLeftRadius: 8,
           borderTopRightRadius: 8,
         }}
@@ -28,7 +29,7 @@ export function Footer() {
             <Link
               href="/"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -46,7 +47,7 @@ export function Footer() {
               href="https://ao.arweave.net"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -64,7 +65,7 @@ export function Footer() {
               href="https://gygbo2cdld7i3t624il5zxa3ezyv6sa2ikvhrlmabah2etw45wua.arweave.net/NgwXaENY_o3P2uIX3NwbJnFfSBpCqnitgAgPok7c7ag/#/spec"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -79,10 +80,10 @@ export function Footer() {
               /
             </Typography>
             <Link
-              href="https://github.com/Autonomous-Finance"
+              href="https://github.com/vela-ventures"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -97,10 +98,10 @@ export function Footer() {
               /
             </Typography>
             <Link
-              href="https://x.com/autonomous_af"
+              href="https://x.com/vela_ventures"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -118,7 +119,7 @@ export function Footer() {
               href="https://stats.dataos.so/"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -136,7 +137,7 @@ export function Footer() {
               href="https://docs.autonomous.finance/products/ecosystem-tooling/ao-link"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -149,14 +150,29 @@ export function Footer() {
             </Link>
           </Stack>
           <Stack direction="row" gap={1}>
-            <Typography component="span" sx={{ color: "rgb(180, 180, 180)" }} variant="caption">
+            <Typography component="span" sx={{ color: "rgb(243, 244, 245)" }} variant="caption">
               Powered by
             </Typography>
             <Link
               href="https://autonomous.finance"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
+                "&:hover": {
+                  color: "#FFF",
+                },
+              }}
+              fontWeight={500}
+              underline="none"
+              variant="body2"
+            >
+              <VelaVenturesLogo />
+            </Link>
+            <Link
+              href="https://autonomous.finance"
+              target="_blank"
+              sx={{
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
@@ -171,7 +187,7 @@ export function Footer() {
               href="https://goldsky.com"
               target="_blank"
               sx={{
-                color: "rgb(180, 180, 180)",
+                color: "rgb(243, 244, 245)",
                 "&:hover": {
                   color: "#FFF",
                 },
